@@ -1,0 +1,96 @@
+#body{
+    /* width: 1280px;
+    height: 517px; */
+    width: auto;
+    height: auto;
+    background-color: black;
+
+}
+.strong{
+    font-size: 500%;
+    margin-bottom: 20px;
+    color: white;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-right: 26%;
+    margin-top: 13%;
+    margin-left: 10px;
+}
+#df:hover{
+    background-color: transparent;
+    
+}
+#text{
+    font-size: 1.625rem;
+    color: white;
+}
+.button.is-circle-small {
+    grid-column-gap: .875rem;
+    grid-row-gap: 1rem;
+    color: rgba(99, 99, 99, .72);
+    border-radius: 50%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: width .2s, color .2s, border-color .2s, height .2s;
+    display: flex;
+}
+.button {
+    color: #fff;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 1rem;
+    padding: 13px 1.25rem;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all .2s, border-color .2s;
+    position: relative;
+}
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;              
+}
+.button-circle-wrapper.is-circle-small {
+    border-style: none;
+    border-radius: 0;
+    width: 3rem;
+    height: 3rem;
+    transform: perspective(1000px);
+}
+.button-circle-wrapper {
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    display: flex;
+}
+#butto{
+    transform: translate3d(0px, 0vh, 0vh) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity:1;
+}
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+#iconbut{
+    width: 50px;
+    height: 50px;
+    color: aliceblue;
+    fill: aliceblue;
+    
+}
